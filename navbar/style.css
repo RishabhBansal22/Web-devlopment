@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+header{
+    margin-bottom: 40px;
+}
+
 #capital{
     text-transform: capitalize;
   }
@@ -59,3 +63,73 @@ a:hover{text-decoration: underline;}
     
 }
 
+.poster{
+    display: flex;
+    border-bottom: 10px solid rgb(231, 181, 17) ;
+    height: 400px;
+}
+
+.image{
+    height: 400px;
+    width: 50vw;
+    border-right: 10px solid rgb(231, 88, 17);
+
+}
+
+.shoe{
+    height: 400px;
+    width: 20vw;
+    border-right: 10px solid , rgb(231, 88, 17);
+
+}
+
+
+    
+.sale{
+    height: 400px;
+    width: 23vw;
+   
+
+}
+
+.yellow{
+    
+        height: 400px;
+        width: 5vw;
+        background-color: rgb(241, 146, 14);
+        margin-left: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+}
+
+p{
+    font-size: 50px;
+    font-weight: bolder;
+    color: white;
+}
+
+.heading{
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    font-size: 150px;
+    transform: translateY(-38px);
+    transition: all linear ;
+}
+
+h1 {
+    animation: colorLoop 2s infinite; /* Change '6s' to adjust the speed */
+  }
+
+@keyframes colorLoop {
+    0% { color: red; }
+    33.33% { color: rgb(239, 137, 13); }
+    66.66% { color: rgb(24, 24, 232); }
+    100% { color: red; }
+}
+    
